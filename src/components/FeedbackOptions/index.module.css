@@ -1,0 +1,9 @@
+.btn {
+  width: 100px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(7, 63, 167);
+  color: white;
+}

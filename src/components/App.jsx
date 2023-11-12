@@ -31,7 +31,7 @@ class App extends Component {
     const { good, neutral, bad } = this.state;
 
     return (
-      <Section title="Please leave feedback" className="section">
+      <Section title="Please leave feedback">
         <FeedbackOptions
           options={Object.keys(this.state)}
           onLeaveFeedback={this.handleClick}

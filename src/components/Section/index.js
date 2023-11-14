@@ -1,11 +1,11 @@
-import css from './index.module.css';
+import Container from './Container.styled';
 
 const Section = ({ children, title }) => {
   return (
-    <div className={css.section}>
+    <Container>
       <h1>{title}</h1>
       {children}
-    </div>
+    </Container>
   );
 };
 

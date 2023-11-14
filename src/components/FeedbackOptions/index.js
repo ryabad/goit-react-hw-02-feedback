@@ -1,16 +1,18 @@
-import css from './index.module.css';
+// import css from './index.module.css';
+
+import Button from './Button.styled';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return options.map(el => (
-    <button
-      className={css.btn}
+    <Button
+      // className={css.btn}
       key={el}
       type="button"
       value={el}
       onClick={() => onLeaveFeedback(el)}
     >
       {el}
-    </button>
+    </Button>
   ));
 };
 
